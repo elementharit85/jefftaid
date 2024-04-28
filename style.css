@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    color: #333;
+    background-color: #f4f4f4;
+}
+
+.jpg {
+    width: 100vh;
+    height: 500px;
+}
+
+header, section, footer {
+    padding: 20px;
+    margin: 10px;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+header h1, header p {
+    text-align: center;
+}
+
+
+footer {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 10px 20px; /* Mengurangi padding atas dan bawah menjadi 10px, sementara kiri dan kanan tetap 20px */
+    text-align: center;
+}
+
+.fot-text {
+    font-size: 15px;
+    font-family: 'Ubuntu', sans-serif; /* Menambahkan font Ubuntu */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.a-con {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    transition: transform 0.2s ease; /* Menambahkan transisi untuk transform */
+}
+
+.a-con:active {
+    transform: scale(0.95); /* Menyusutkan kotak saat diklik */
+}
+
+nav ul {
+    display: flex; /* Menggunakan flexbox untuk menyusun item secara horizontal */
+    justify-content: center; /* Menempatkan item di tengah secara horizontal */
+    list-style-type: none; /* Menghilangkan bullet points dari list */
+    padding: 0; /* Menghilangkan padding default */
+}
+
+nav ul li {
+    margin: 0 10px; /* Memberikan jarak horizontal antar item */
+}
+
+nav ul li a {
+    text-decoration: none; /* Menghilangkan garis bawah pada link */
+    color: black; /* Mengatur warna teks link */
+    transition: color 0.3s ease; /* Menambahkan transisi warna */
+}
+
+nav ul li a:hover {
+    color: #0056b3; /* Mengubah warna teks link saat di-hover */
+}

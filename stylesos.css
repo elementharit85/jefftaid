@@ -1,0 +1,72 @@
+*,
+html
+body {
+    margin: 0;
+    font-family: "Ubuntu", sans-serif;
+}
+
+:root {
+    --main-bg: #c2b5ff;
+    --secondary-bg: rgb(255, 44, 44);
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    background-color: var(--main-bg);
+}
+
+.wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Menambahkan ini untuk vertikal centering */
+    width: 100%;
+    height: 100vh; /* Menetapkan tinggi wrap sama dengan viewport */
+}
+
+.card {
+    border: 1px solid white;
+    background-color: rgb(35, 172, 81);
+    color: white;
+    margin: 8px;
+    padding: 10px;
+    box-shadow: 2px 2px 2px 2px rgb(0, 0, 0);
+}
+
+.text-center {
+    text-align: center;
+}
+
+.icon {
+    font-size: 50px;
+    margin-top: 10px;
+}
+
+.icon:hover {
+    transform: scale(1.2); /* Membesarkan ikon sebesar 20% */
+    transition: transform 0.3s ease-in-out; /* Membuat animasi lebih halus */
+}
+
+.title {
+    font-size: 3em;
+}
+
+.deskripsi {
+    font-size: 1em;
+    margin-top: 10px;
+}
+
+.btn {
+    margin-top: 8px;
+    padding: 5px;
+    cursor:pointer ;
+    border: none;
+    width: 100%;
+    font-size: 20px;
+}
+
+.btn:hover {
+    background-color: var(--main-bg);
+    transform: rotate(-2deg); /* Menambahkan efek miring */
+    transition: transform 0.3s; /* Membuat animasi berlangsung selama 0.3 detik */
+}
